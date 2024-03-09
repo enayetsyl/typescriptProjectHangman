@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
+## Typescript Project Word Guessing Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Introduction
 
-Currently, two official plugins are available:
+The Hangman game is a classic word-guessing game where players attempt to guess a word by suggesting letters within a limited number of attempts. In this project, we've implemented a digital version of the Hangman game using React, a JavaScript library for building user interfaces.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### About The Project
 
-## Expanding the ESLint configuration
+The project consists of a single-page web application built with React. It includes components for the Hangman game interface, such as the Hangman drawing, the word to guess, and a virtual keyboard for input. The game logic handles checking for correct guesses, updating the game state, and determining whether the player has won or lost.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Components
 
-- Configure the top-level `parserOptions` property like this:
+- HangmanDrawing
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+This component displays the Hangman drawing based on the number of incorrect guesses made by the player. It consists of various <div> elements representing the different parts of the Hangman figure.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- HangmanWord
+
+The HangmanWord component displays the word to guess, with letters revealed as the player makes correct guesses. It also handles displaying incorrect guesses in a different color.
+
+- Keyboard
+
+The Keyboard component provides a virtual keyboard for the player to make letter guesses. It disables letters that have already been guessed and highlights correct guesses.
+
+### Game Logic
+
+The game logic tracks the word to guess, the letters guessed by the player, and whether the player has won or lost. It prevents the player from guessing the same letter multiple times and limits the number of incorrect guesses allowed.
+
+### Details About TypeScript Skills
+
+This project serves as a showcase of TypeScript skills, demonstrating type safety and enhanced developer experience.
+
+- TypeScript Usage
+
+- Type Annotations: TypeScript is used to define type annotations for function parameters, state variables, and component props throughout the project.
+
+- Type Safety: TypeScript ensures type safety by detecting potential type errors during development, reducing the likelihood of runtime errors.
+
+- Interface Definitions: Interfaces are used to define the structure of complex data types, enhancing code readability and maintainability.
+
+### Word List
+
+The project includes a JSON file containing a list of words to be used as potential guesses in the game. A random word is selected from this list each time a new game starts.
+
+### Keyboard Input
+
+The game allows players to input guesses via keyboard input. Pressing a letter key will register a guess, and pressing the Enter key will start a new game.
+
+### Conclusion
+
+In conclusion, this project demonstrates the implementation of the classic Hangman game using React and showcases the TypeScript skills of the developer. By playing the game, users can enjoy a fun and challenging word-guessing experience right in their web browser.
