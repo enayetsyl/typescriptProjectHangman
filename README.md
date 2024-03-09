@@ -49,3 +49,7 @@ The game allows players to input guesses via keyboard input. Pressing a letter k
 ### Conclusion
 
 In conclusion, this project demonstrates the implementation of the classic Hangman game using React and showcases the TypeScript skills of the developer. By playing the game, users can enjoy a fun and challenging word-guessing experience right in their web browser.
+
+Live Link : https://hangman-typescript-wine.vercel.app/
+Portfolio : https://md-enayetur-rahman-portfolio.vercel.app/
+Linkedin : https://www.linkedin.com/in/md-enayetur-rahman/
