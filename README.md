@@ -53,3 +53,4 @@ In conclusion, this project demonstrates the implementation of the classic Hangm
 Live Link : https://hangman-typescript-wine.vercel.app/
 Portfolio : https://md-enayetur-rahman-portfolio.vercel.app/
 Linkedin : https://www.linkedin.com/in/md-enayetur-rahman/
+Documentation: https://md-enayetur-rahman.gitbook.io/typescript-project-word-guessing-game-hangman/
