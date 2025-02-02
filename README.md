@@ -51,6 +51,20 @@ The game allows players to input guesses via keyboard input. Pressing a letter k
 In conclusion, this project demonstrates the implementation of the classic Hangman game using React and showcases the TypeScript skills of the developer. By playing the game, users can enjoy a fun and challenging word-guessing experience right in their web browser.
 
 Live Link : https://hangman-typescript-wine.vercel.app/
-Portfolio : https://md-enayetur-rahman-portfolio.vercel.app/
-Linkedin : https://www.linkedin.com/in/md-enayetur-rahman/
 Documentation: https://md-enayetur-rahman.gitbook.io/typescript-project-word-guessing-game-hangman/
+
+## 🏆 **Author:** Md Enayetur Rahman
+
+### Contact Information
+- [LinkedIn](https://www.linkedin.com/in/md-enayetur-rahman/)
+- [Facebook](https://www.facebook.com/profile.php?id=100094416483981)
+- [X (Twitter)](https://x.com/enayetu_syl)
+- [YouTube](https://www.youtube.com/@MdEnayeturRahman)
+- [GitHub](https://github.com/enayetsyl/)
+- [Medium](https://medium.com/@enayetflweb)
+- [dev.to](https://dev.to/md_enayeturrahman_2560e3)
+- [Leetcode](https://leetcode.com/u/XTl7hvNPIc/)
+- [Hackerrank](https://www.hackerrank.com/profile/enayetflweb)
+- [Codeforces](https://codeforces.com/profile/enayetsyl)
+- [Email](mailto:enayetflweb@gmail.com)
+
